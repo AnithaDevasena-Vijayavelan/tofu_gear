@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TofuGear]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportNG"/>
+  </listeners>
+  <test name="TofuGear Application testcase(failed)">
+    <classes>
+      <class name="com.tofuGearPortal.qa.testcases.HomepageTest">
+        <methods>
+          <include name="digiTransformoptions"/>
+          <include name="MaximizingInStoreeoptions"/>
+          <include name="tearDown"/>
+          <include name="ContactMenu"/>
+          <include name="setup"/>
+          <include name="CareerMenu"/>
+          <include name="Customerofflineoptions"/>
+          <include name="ExpandingStoreOptions"/>
+          <include name="RetailAsiaExpoPage"/>
+          <include name="ClientConcernSelectionoptions"/>
+        </methods>
+      </class> <!-- com.tofuGearPortal.qa.testcases.HomepageTest -->
+    </classes>
+  </test> <!-- TofuGear Application testcase(failed) -->
+</suite> <!-- Failed suite [TofuGear] -->

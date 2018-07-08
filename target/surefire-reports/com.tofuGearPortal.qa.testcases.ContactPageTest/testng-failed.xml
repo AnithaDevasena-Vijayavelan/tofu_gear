@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [com.tofuGearPortal.qa.testcases.ContactPageTest]">
+  <test name="Command line test 6f349e2f-501a-41c1-869c-528f9372f237(failed)">
+    <classes>
+      <class name="com.tofuGearPortal.qa.testcases.ContactPageTest">
+        <methods>
+          <include name="submitenableTest"/>
+          <include name="setup"/>
+          <include name="EmailTest"/>
+          <include name="FirstnameTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tofuGearPortal.qa.testcases.ContactPageTest -->
+    </classes>
+  </test> <!-- Command line test 6f349e2f-501a-41c1-869c-528f9372f237(failed) -->
+</suite> <!-- Failed suite [com.tofuGearPortal.qa.testcases.ContactPageTest] -->

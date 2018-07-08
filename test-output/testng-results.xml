@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TofuGear" duration-ms="117012" started-at="2018-02-11T16:37:34Z" finished-at="2018-02-11T16:39:31Z">
+    <groups>
+      <group name="solutionMenu">
+        <method signature="HomepageTest.solunecommerceMenu()[pri:4, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="solunecommerceMenu" class="com.tofuGearPortal.qa.testcases.HomepageTest"/>
+        <method signature="HomepageTest.solutionDigiMenu()[pri:3, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="solutionDigiMenu" class="com.tofuGearPortal.qa.testcases.HomepageTest"/>
+      </group> <!-- solutionMenu -->
+      <group name="Menu">
+        <method signature="HomepageTest.AboutUsMenu()[pri:7, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="AboutUsMenu" class="com.tofuGearPortal.qa.testcases.HomepageTest"/>
+        <method signature="HomepageTest.BlogMenu()[pri:5, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="BlogMenu" class="com.tofuGearPortal.qa.testcases.HomepageTest"/>
+        <method signature="HomepageTest.CareerMenu()[pri:8, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="CareerMenu" class="com.tofuGearPortal.qa.testcases.HomepageTest"/>
+        <method signature="HomepageTest.ContactMenu()[pri:9, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="ContactMenu" class="com.tofuGearPortal.qa.testcases.HomepageTest"/>
+        <method signature="HomepageTest.platformMenu()[pri:6, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="platformMenu" class="com.tofuGearPortal.qa.testcases.HomepageTest"/>
+      </group> <!-- Menu -->
+      <group name="video">
+        <method signature="HomepageTest.videovalidation()[pri:2, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="videovalidation" class="com.tofuGearPortal.qa.testcases.HomepageTest"/>
+      </group> <!-- video -->
+      <group name="Clientconcernlist">
+        <method signature="HomepageTest.Customerofflineoptions()[pri:13, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="Customerofflineoptions" class="com.tofuGearPortal.qa.testcases.HomepageTest"/>
+        <method signature="HomepageTest.ExpandingStoreOptions()[pri:15, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="ExpandingStoreOptions" class="com.tofuGearPortal.qa.testcases.HomepageTest"/>
+        <method signature="HomepageTest.MaximizingInStoreeoptions()[pri:14, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="MaximizingInStoreeoptions" class="com.tofuGearPortal.qa.testcases.HomepageTest"/>
+        <method signature="HomepageTest.digiTransformoptions()[pri:12, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="digiTransformoptions" class="com.tofuGearPortal.qa.testcases.HomepageTest"/>
+      </group> <!-- Clientconcernlist -->
+      <group name="asiaexpo">
+        <method signature="HomepageTest.RetailAsiaExpoPage()[pri:10, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="RetailAsiaExpoPage" class="com.tofuGearPortal.qa.testcases.HomepageTest"/>
+      </group> <!-- asiaexpo -->
+      <group name="content">
+        <method signature="HomepageTest.validateTopcontent()[pri:1, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="validateTopcontent" class="com.tofuGearPortal.qa.testcases.HomepageTest"/>
+      </group> <!-- content -->
+      <group name="Clientconcernoptions">
+        <method signature="HomepageTest.ClientConcernSelectionoptions()[pri:11, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="ClientConcernSelectionoptions" class="com.tofuGearPortal.qa.testcases.HomepageTest"/>
+      </group> <!-- Clientconcernoptions -->
+    </groups>
+    <test name="TofuGear Application testcase" duration-ms="117012" started-at="2018-02-11T16:37:34Z" finished-at="2018-02-11T16:39:31Z">
+      <class name="com.tofuGearPortal.qa.testcases.HomepageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="setup" is-config="true" duration-ms="6225" started-at="2018-02-12T00:37:34Z" finished-at="2018-02-12T00:37:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateTopcontent()[pri:1, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="validateTopcontent" duration-ms="144" started-at="2018-02-12T00:37:41Z" finished-at="2018-02-12T00:37:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTopcontent -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="tearDown" is-config="true" duration-ms="210" started-at="2018-02-12T00:37:41Z" finished-at="2018-02-12T00:37:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="setup" is-config="true" duration-ms="4791" started-at="2018-02-12T00:37:41Z" finished-at="2018-02-12T00:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="videovalidation()[pri:2, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="videovalidation" duration-ms="10397" started-at="2018-02-12T00:37:46Z" finished-at="2018-02-12T00:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videovalidation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="tearDown" is-config="true" duration-ms="243" started-at="2018-02-12T00:37:56Z" finished-at="2018-02-12T00:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="setup" is-config="true" duration-ms="5102" started-at="2018-02-12T00:37:56Z" finished-at="2018-02-12T00:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="solutionDigiMenu()[pri:3, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="solutionDigiMenu" duration-ms="5270" started-at="2018-02-12T00:38:02Z" finished-at="2018-02-12T00:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- solutionDigiMenu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="tearDown" is-config="true" duration-ms="243" started-at="2018-02-12T00:38:07Z" finished-at="2018-02-12T00:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="setup" is-config="true" duration-ms="5136" started-at="2018-02-12T00:38:07Z" finished-at="2018-02-12T00:38:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="solunecommerceMenu()[pri:4, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="solunecommerceMenu" duration-ms="4655" started-at="2018-02-12T00:38:12Z" finished-at="2018-02-12T00:38:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- solunecommerceMenu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="tearDown" is-config="true" duration-ms="196" started-at="2018-02-12T00:38:17Z" finished-at="2018-02-12T00:38:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="setup" is-config="true" duration-ms="4790" started-at="2018-02-12T00:38:17Z" finished-at="2018-02-12T00:38:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="BlogMenu()[pri:5, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="BlogMenu" duration-ms="1232" started-at="2018-02-12T00:38:22Z" finished-at="2018-02-12T00:38:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlogMenu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="tearDown" is-config="true" duration-ms="153" started-at="2018-02-12T00:38:23Z" finished-at="2018-02-12T00:38:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="setup" is-config="true" duration-ms="4628" started-at="2018-02-12T00:38:23Z" finished-at="2018-02-12T00:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="platformMenu()[pri:6, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="platformMenu" duration-ms="1606" started-at="2018-02-12T00:38:28Z" finished-at="2018-02-12T00:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- platformMenu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="tearDown" is-config="true" duration-ms="178" started-at="2018-02-12T00:38:29Z" finished-at="2018-02-12T00:38:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="setup" is-config="true" duration-ms="4693" started-at="2018-02-12T00:38:30Z" finished-at="2018-02-12T00:38:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AboutUsMenu()[pri:7, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="AboutUsMenu" duration-ms="1725" started-at="2018-02-12T00:38:34Z" finished-at="2018-02-12T00:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutUsMenu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="tearDown" is-config="true" duration-ms="148" started-at="2018-02-12T00:38:36Z" finished-at="2018-02-12T00:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="setup" is-config="true" duration-ms="4467" started-at="2018-02-12T00:38:36Z" finished-at="2018-02-12T00:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CareerMenu()[pri:8, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="CareerMenu" duration-ms="1389" started-at="2018-02-12T00:38:41Z" finished-at="2018-02-12T00:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CareerMenu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="tearDown" is-config="true" duration-ms="148" started-at="2018-02-12T00:38:42Z" finished-at="2018-02-12T00:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="setup" is-config="true" duration-ms="4559" started-at="2018-02-12T00:38:42Z" finished-at="2018-02-12T00:38:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ContactMenu()[pri:9, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="ContactMenu" duration-ms="174" started-at="2018-02-12T00:38:47Z" finished-at="2018-02-12T00:38:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactMenu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="tearDown" is-config="true" duration-ms="144" started-at="2018-02-12T00:38:47Z" finished-at="2018-02-12T00:38:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="setup" is-config="true" duration-ms="4582" started-at="2018-02-12T00:38:47Z" finished-at="2018-02-12T00:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RetailAsiaExpoPage()[pri:10, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="RetailAsiaExpoPage" duration-ms="5403" started-at="2018-02-12T00:38:52Z" finished-at="2018-02-12T00:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RetailAsiaExpoPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="tearDown" is-config="true" duration-ms="204" started-at="2018-02-12T00:38:57Z" finished-at="2018-02-12T00:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="setup" is-config="true" duration-ms="4623" started-at="2018-02-12T00:38:57Z" finished-at="2018-02-12T00:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ClientConcernSelectionoptions()[pri:11, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="ClientConcernSelectionoptions" duration-ms="312" started-at="2018-02-12T00:39:02Z" finished-at="2018-02-12T00:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClientConcernSelectionoptions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="tearDown" is-config="true" duration-ms="147" started-at="2018-02-12T00:39:02Z" finished-at="2018-02-12T00:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="setup" is-config="true" duration-ms="4336" started-at="2018-02-12T00:39:02Z" finished-at="2018-02-12T00:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="digiTransformoptions()[pri:12, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="digiTransformoptions" duration-ms="2412" started-at="2018-02-12T00:39:07Z" finished-at="2018-02-12T00:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- digiTransformoptions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="tearDown" is-config="true" duration-ms="148" started-at="2018-02-12T00:39:09Z" finished-at="2018-02-12T00:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="setup" is-config="true" duration-ms="4560" started-at="2018-02-12T00:39:09Z" finished-at="2018-02-12T00:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Customerofflineoptions()[pri:13, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="Customerofflineoptions" duration-ms="2687" started-at="2018-02-12T00:39:14Z" finished-at="2018-02-12T00:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customerofflineoptions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="tearDown" is-config="true" duration-ms="152" started-at="2018-02-12T00:39:17Z" finished-at="2018-02-12T00:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="setup" is-config="true" duration-ms="4479" started-at="2018-02-12T00:39:17Z" finished-at="2018-02-12T00:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MaximizingInStoreeoptions()[pri:14, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="MaximizingInStoreeoptions" duration-ms="2394" started-at="2018-02-12T00:39:21Z" finished-at="2018-02-12T00:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MaximizingInStoreeoptions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="tearDown" is-config="true" duration-ms="193" started-at="2018-02-12T00:39:24Z" finished-at="2018-02-12T00:39:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="setup" is-config="true" duration-ms="4791" started-at="2018-02-12T00:39:24Z" finished-at="2018-02-12T00:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ExpandingStoreOptions()[pri:15, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="ExpandingStoreOptions" duration-ms="2695" started-at="2018-02-12T00:39:29Z" finished-at="2018-02-12T00:39:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExpandingStoreOptions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tofuGearPortal.qa.testcases.HomepageTest@67b92f0a]" name="tearDown" is-config="true" duration-ms="196" started-at="2018-02-12T00:39:31Z" finished-at="2018-02-12T00:39:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tofuGearPortal.qa.testcases.HomepageTest -->
+    </test> <!-- TofuGear Application testcase -->
+  </suite> <!-- TofuGear -->
+</testng-results>

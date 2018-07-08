@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TofuGear">
+	<listeners>
+		<!-- <listener class-name="Analyzer.MyTransformer"/> -->
+		<listener class-name="com.qa.ExtentReportListener.ExtentReportNG" />
+	</listeners>
+
+
+	<test name="TofuGear Application testcase">
+		<classes>
+			<class name="com.tofuGearPortal.qa.testcases.HomepageTest" />
+			<!-- <class name="com.tofuGearPortal.qa.testcases.ContactPageTest"></class> 
+				<class name="com.tofuGearPortal.qa.testcases.PlatformPageTest"></class> -->
+		</classes>
+	</test>
+</suite>

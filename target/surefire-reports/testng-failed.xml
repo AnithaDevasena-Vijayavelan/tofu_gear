@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [com.tofuGearPortal.qa.testcases.PlatformPageTest]">
+  <test name="Command line test 6c5b618f-2254-4067-891c-b7cd81a67b2e(failed)">
+    <classes>
+      <class name="com.tofuGearPortal.qa.testcases.PlatformPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="PlatformPagestartingTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.tofuGearPortal.qa.testcases.PlatformPageTest -->
+    </classes>
+  </test> <!-- Command line test 6c5b618f-2254-4067-891c-b7cd81a67b2e(failed) -->
+</suite> <!-- Failed suite [com.tofuGearPortal.qa.testcases.PlatformPageTest] -->

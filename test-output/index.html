@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TofuGear">
+              <span class="suite-name border-passed">TofuGear</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TofuGear">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TofuGear">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TofuGear">
+                    <span>7 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TofuGear">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TofuGear">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TofuGear">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TofuGear">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TofuGear" class="hide-methods passed suite-TofuGear"> (hide)</a> <!-- hide-methods passed suite-TofuGear -->
+                      <a href="#" panel-name="suite-TofuGear" class="show-methods passed suite-TofuGear"> (show)</a> <!-- show-methods passed suite-TofuGear -->
+                    </span>
+                    <div class="method-list-content passed suite-TofuGear">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TofuGear" title="com.tofuGearPortal.qa.testcases.HomepageTest" hash-for-method="AboutUsMenu">AboutUsMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TofuGear" title="com.tofuGearPortal.qa.testcases.HomepageTest" hash-for-method="BlogMenu">BlogMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TofuGear" title="com.tofuGearPortal.qa.testcases.HomepageTest" hash-for-method="CareerMenu">CareerMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TofuGear" title="com.tofuGearPortal.qa.testcases.HomepageTest" hash-for-method="ClientConcernSelectionoptions">ClientConcernSelectionoptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TofuGear" title="com.tofuGearPortal.qa.testcases.HomepageTest" hash-for-method="ContactMenu">ContactMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TofuGear" title="com.tofuGearPortal.qa.testcases.HomepageTest" hash-for-method="Customerofflineoptions">Customerofflineoptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TofuGear" title="com.tofuGearPortal.qa.testcases.HomepageTest" hash-for-method="ExpandingStoreOptions">ExpandingStoreOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TofuGear" title="com.tofuGearPortal.qa.testcases.HomepageTest" hash-for-method="MaximizingInStoreeoptions">MaximizingInStoreeoptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TofuGear" title="com.tofuGearPortal.qa.testcases.HomepageTest" hash-for-method="RetailAsiaExpoPage">RetailAsiaExpoPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TofuGear" title="com.tofuGearPortal.qa.testcases.HomepageTest" hash-for-method="digiTransformoptions">digiTransformoptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TofuGear" title="com.tofuGearPortal.qa.testcases.HomepageTest" hash-for-method="platformMenu">platformMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TofuGear" title="com.tofuGearPortal.qa.testcases.HomepageTest" hash-for-method="solunecommerceMenu">solunecommerceMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TofuGear" title="com.tofuGearPortal.qa.testcases.HomepageTest" hash-for-method="solutionDigiMenu">solutionDigiMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TofuGear" title="com.tofuGearPortal.qa.testcases.HomepageTest" hash-for-method="validateTopcontent">validateTopcontent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TofuGear" title="com.tofuGearPortal.qa.testcases.HomepageTest" hash-for-method="videovalidation">videovalidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TofuGear -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TofuGear" class="panel TofuGear">
+          <div class="suite-TofuGear-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tofuGearPortal.qa.testcases.HomepageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AboutUsMenu">
+                  </a> <!-- AboutUsMenu -->
+                  <span class="method-name">AboutUsMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BlogMenu">
+                  </a> <!-- BlogMenu -->
+                  <span class="method-name">BlogMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CareerMenu">
+                  </a> <!-- CareerMenu -->
+                  <span class="method-name">CareerMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClientConcernSelectionoptions">
+                  </a> <!-- ClientConcernSelectionoptions -->
+                  <span class="method-name">ClientConcernSelectionoptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContactMenu">
+                  </a> <!-- ContactMenu -->
+                  <span class="method-name">ContactMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Customerofflineoptions">
+                  </a> <!-- Customerofflineoptions -->
+                  <span class="method-name">Customerofflineoptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExpandingStoreOptions">
+                  </a> <!-- ExpandingStoreOptions -->
+                  <span class="method-name">ExpandingStoreOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MaximizingInStoreeoptions">
+                  </a> <!-- MaximizingInStoreeoptions -->
+                  <span class="method-name">MaximizingInStoreeoptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RetailAsiaExpoPage">
+                  </a> <!-- RetailAsiaExpoPage -->
+                  <span class="method-name">RetailAsiaExpoPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="digiTransformoptions">
+                  </a> <!-- digiTransformoptions -->
+                  <span class="method-name">digiTransformoptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="platformMenu">
+                  </a> <!-- platformMenu -->
+                  <span class="method-name">platformMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="solunecommerceMenu">
+                  </a> <!-- solunecommerceMenu -->
+                  <span class="method-name">solunecommerceMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="solutionDigiMenu">
+                  </a> <!-- solutionDigiMenu -->
+                  <span class="method-name">solutionDigiMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateTopcontent">
+                  </a> <!-- validateTopcontent -->
+                  <span class="method-name">validateTopcontent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="videovalidation">
+                  </a> <!-- videovalidation -->
+                  <span class="method-name">videovalidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TofuGear-class-passed -->
+        </div> <!-- panel TofuGear -->
+        <div panel-name="test-xml-TofuGear" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Applications/Eclipse/Amirtha/selenium/com.tofuGearPortal/src/main/resources/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TofuGear&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.ExtentReportListener.ExtentReportNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;TofuGear Application testcase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tofuGearPortal.qa.testcases.HomepageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TofuGear Application testcase --&gt;
+&lt;/suite&gt; &lt;!-- TofuGear --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TofuGear" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TofuGear</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TofuGear Application testcase (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TofuGear" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TofuGear</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Clientconcernlist</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Customerofflineoptions</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ExpandingStoreOptions</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">MaximizingInStoreeoptions</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">digiTransformoptions</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Clientconcernoptions</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">ClientConcernSelectionoptions</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Menu</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">AboutUsMenu</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">BlogMenu</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CareerMenu</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ContactMenu</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">platformMenu</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">asiaexpo</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">RetailAsiaExpoPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">content</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateTopcontent</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">solutionMenu</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">solunecommerceMenu</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">solutionDigiMenu</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">video</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">videovalidation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TofuGear" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TofuGear</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TofuGear');
+function tableData_TofuGear() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'videovalidation')
+data.setCell(0, 2, 'com.tofuGearPortal.qa.testcases.HomepageTest')
+data.setCell(0, 3, 10397);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'RetailAsiaExpoPage')
+data.setCell(1, 2, 'com.tofuGearPortal.qa.testcases.HomepageTest')
+data.setCell(1, 3, 5403);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'solutionDigiMenu')
+data.setCell(2, 2, 'com.tofuGearPortal.qa.testcases.HomepageTest')
+data.setCell(2, 3, 5270);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'solunecommerceMenu')
+data.setCell(3, 2, 'com.tofuGearPortal.qa.testcases.HomepageTest')
+data.setCell(3, 3, 4655);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ExpandingStoreOptions')
+data.setCell(4, 2, 'com.tofuGearPortal.qa.testcases.HomepageTest')
+data.setCell(4, 3, 2695);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Customerofflineoptions')
+data.setCell(5, 2, 'com.tofuGearPortal.qa.testcases.HomepageTest')
+data.setCell(5, 3, 2687);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'digiTransformoptions')
+data.setCell(6, 2, 'com.tofuGearPortal.qa.testcases.HomepageTest')
+data.setCell(6, 3, 2412);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'MaximizingInStoreeoptions')
+data.setCell(7, 2, 'com.tofuGearPortal.qa.testcases.HomepageTest')
+data.setCell(7, 3, 2394);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'AboutUsMenu')
+data.setCell(8, 2, 'com.tofuGearPortal.qa.testcases.HomepageTest')
+data.setCell(8, 3, 1725);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'platformMenu')
+data.setCell(9, 2, 'com.tofuGearPortal.qa.testcases.HomepageTest')
+data.setCell(9, 3, 1606);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'CareerMenu')
+data.setCell(10, 2, 'com.tofuGearPortal.qa.testcases.HomepageTest')
+data.setCell(10, 3, 1389);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'BlogMenu')
+data.setCell(11, 2, 'com.tofuGearPortal.qa.testcases.HomepageTest')
+data.setCell(11, 3, 1232);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ClientConcernSelectionoptions')
+data.setCell(12, 2, 'com.tofuGearPortal.qa.testcases.HomepageTest')
+data.setCell(12, 3, 312);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'ContactMenu')
+data.setCell(13, 2, 'com.tofuGearPortal.qa.testcases.HomepageTest')
+data.setCell(13, 3, 174);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateTopcontent')
+data.setCell(14, 2, 'com.tofuGearPortal.qa.testcases.HomepageTest')
+data.setCell(14, 3, 144);
+window.suiteTableData['TofuGear']= { tableData: data, tableDiv: 'times-div-TofuGear'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 42 seconds</span>
+              <div id="times-div-TofuGear">
+              </div> <!-- times-div-TofuGear -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TofuGear" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TofuGear</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TofuGear" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TofuGear" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tofuGearPortal.qa.testcases.HomepageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateTopcontent</span>
+                <span class="method-start">6226 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6374 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">6587 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">videovalidation</span>
+                <span class="method-start">11378 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21776 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">22019 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">solutionDigiMenu</span>
+                <span class="method-start">27121 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32392 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">32636 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">solunecommerceMenu</span>
+                <span class="method-start">37772 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42428 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">42625 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">BlogMenu</span>
+                <span class="method-start">47415 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48648 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">48802 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">platformMenu</span>
+                <span class="method-start">53430 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">55038 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">55217 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AboutUsMenu</span>
+                <span class="method-start">59910 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61636 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">61785 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CareerMenu</span>
+                <span class="method-start">66252 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67642 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">67791 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ContactMenu</span>
+                <span class="method-start">72350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">72525 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">72670 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RetailAsiaExpoPage</span>
+                <span class="method-start">77252 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">82656 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">82861 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClientConcernSelectionoptions</span>
+                <span class="method-start">87484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">87797 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">87944 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">digiTransformoptions</span>
+                <span class="method-start">92280 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">94692 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">94841 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Customerofflineoptions</span>
+                <span class="method-start">99401 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">102089 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">102241 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MaximizingInStoreeoptions</span>
+                <span class="method-start">106720 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">109115 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">109308 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ExpandingStoreOptions</span>
+                <span class="method-start">114099 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">116796 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
